@@ -1,0 +1,15 @@
+public class Datatypesizes{
+public static void main(String args[]){
+Scanner obj=new scanner(System.in);
+System.out.println("Size of primitive data types in java:");
+system.out.println("byte:"+byte.size+"bits");
+system.out.println("short:"+short.size+"bits");
+system.out.println("int:"+int.size+"bits);
+system.out.println("long"+long.size+"bits);
+system.out.println("float"+float.size+"bits);
+system.out.println("double"+double.size+"bits);
+system.out.println("char"+character.size+"bits");
+system.out.println("Boolean:~1bit");
+}
+}
+
