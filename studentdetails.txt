@@ -1,0 +1,34 @@
+import java.utilf.scanner;
+public class studentfDetails{
+public static void main(String args[]){
+scanner obj=new scanner(system.in);
+int rollfnumber;
+int mark1,mark2,mark3,mark4,mark5;
+system.out.println("Enter student roll number:");
+rollnumber=obj.nextInt();
+system.out.println("Enter student name:");
+name=obj.nextline();
+system.out.println("Enter class:");
+name=obj.nextline();
+system.out.println("Enter section:");
+class name=obj.nextline();
+system.out.println("Enter marks for subject1:");
+mark1=obj.nextline();
+system.out.println("Enter marks for subject2:");
+mark2=obj.nextline();
+system.out.println("Enter marks for subject3:");
+mark3=obj.nextline();
+system.out.println("Enter marks for subject4:");
+mark4=obj.nextline();
+system.out.println("Enter marks for subject5:");
+mark5=obj.nextline();
+average=(mark1+mark2+mark3+mark4+mark5)/5
+system.out.println("Students Details:);
+system.out.println("Rollnumber:"+rollnumber);
+system.out.println("Name:"+name);
+system.out.println("Section:"+section);
+system.out.println("Marks:"+mark1+"mark2+"mark3+"mark4+"mark5");
+system.out.println("Average marks:"+average);
+}
+}
+
