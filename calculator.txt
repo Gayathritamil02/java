@@ -1,0 +1,14 @@
+import java.util.scanner;
+public class simplecalculator{
+public static void main(String args[]){
+scanner obj=new scanner(System.in);
+system.out.println("Enter first number:");
+double num1=scanner.nextDouble();
+system.out.println("Enter operator +,-,*,/);
+char operator=scanner.nextchar();
+system.out.println("Enter second number:");
+double num2=scanner.nextDouble();
+system.out.println("Result:"+result);
+}
+}
+
